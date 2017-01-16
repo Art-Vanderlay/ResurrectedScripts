@@ -32,7 +32,7 @@ clear
         echo -e "${bldred}                               "
         echo -e "${bldred}       RESURRECTION REMIX OS   "
         echo -e "${bldred}                               "
-        echo -e "${bldred}       M A R S H M A L L O W   "
+        echo -e "${bldred}            N O U G A T   "
         echo -e "${bldred}                               "
         echo -e "${bldcya}     Setting up your computer! "
 
@@ -114,7 +114,7 @@ clear
 	echo -e "${bldred}                               "
 	echo -e "${bldred}       RESURRECTION REMIX OS   "
 	echo -e "${bldred}                               "
-	echo -e "${bldred}       M A R S H M A L L O W   "
+	echo -e "${bldred}            N O U G A T   "
 	echo -e "${bldred}                               "
 	echo -e "${bldcya}      Downloading Source Code! "
 	echo  
@@ -127,7 +127,7 @@ tput setaf 2
 	cp build.sh $rrpath/build.sh
 	cd $rrpath
 	echo  
-	repo init -u git://github.com/ResurrectionRemix/platform_manifest.git -b marshmallow
+	repo init -u git://github.com/ResurrectionRemix/platform_manifest.git -b nougat
 	time repo sync --force-broken --force-sync --no-clone-bundle --quiet
 	echo  
 	echo  
