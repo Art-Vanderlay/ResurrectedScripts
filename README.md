@@ -26,11 +26,11 @@ Building     | Depends on PC specifications
  3. Bigger RAM: More RAM allows more instructions to be sent over to the CPU and will allow the CPU to be more efficient. It also             helps if you want to use applications whilst building and not ressult in build failures caused by insufficient memory
  4. Faster Internet: Nowadays internet connections are around 2mbps+ There is not a need to upgrade your internet that quick. If you          have a tendency of re-downloading the full source code or downloading source code for other ROMs, consider a faster internet connection.
 
-## How to build with Resurreected Scripts:
+## How to build with Resurrected Scripts:
 Simply run the setup script to get your PC ready
 ```
 cd ~/
-git clone git://git@github.com:Art-Vanderlay/ResurrectedScripts.git -b nougat scripts
+git clone https://github.com/Art-Vanderlay/ResurrectedScripts.git -b nougat scripts
 cd scripts
 ./setup.sh
 ```
