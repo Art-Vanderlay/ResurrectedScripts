@@ -1,6 +1,6 @@
 # Resurrected Scripts
 Script used for building Resurrection Remix
-> Android M is the only supported version for Resurrected Scripts
+> Android M and N are the only supported versions for Resurrected Scripts
 
 Module  | Recommended Requirements
 -------:|:-------------------------
@@ -12,7 +12,7 @@ Internet| Anything decent, the more the better, you have to download ~20GB
 Display | Not applicable
 OS      | x64 Linux based OS* [This guide works for ubuntu/debian/mint/others with aptitude as package manager][Will add Arch Linux Script soon]
 
-\* Currently tested on: **Linux Mint 17.3**, **Ubuntu 14.04 LTS**
+\* Currently tested on: **Linux Mint 18.1
 
 Sections     | Estimated Time
 ------------:|:-------------------------
@@ -30,7 +30,7 @@ Building     | Depends on PC specifications
 Simply run the setup script to get your PC ready
 ```
 cd ~/
-git clone git://github.com/ResurrectionRemix/ResurrectedScripts.git -b marshmallow scripts
+git clone git://git@github.com:Art-Vanderlay/ResurrectedScripts.git -b nougat scripts
 cd scripts
 ./setup.sh
 ```
@@ -46,7 +46,7 @@ It will either fail and require you to fix the errors, or it will be successful.
 
 If the build was successful, the zip file will be located in:
 ```
-<path/to/rr/source>/out/target/product/<device-codename>/ResurrectionRemix-M-<version>-<date>-<device-codename>.zip
+<path/to/rr/source>/out/target/product/<device-codename>/ResurrectionRemix-N-<version>-<date>-<device-codename>.zip
 ```
 
 ### Tips and Tricks
@@ -88,7 +88,7 @@ export OUT_DIR_COMMON_BASE=/out
 Make sure your user has write permissions to that of course.
 
 Instead of the old build output, it will be here instead:
-/out/<folder-name-of-rr-source>/target/product/<device>/ResurrectionRemix-M-(version)-(date)-(device-codename).zip
+/out/<folder-name-of-rr-source>/target/product/<device>/ResurrectionRemix-N-(version)-(date)-(device-codename).zip
 
 3. Store CCache in a seperate drive for faster compilation
 The explanation here is similar to the previous trick although CCache is a bunch of compiled data that will be frequently accessed by the build
